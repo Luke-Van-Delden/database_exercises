@@ -12,5 +12,5 @@ USE codeup_test_db;
 -- SELECT '1990s' AS 'Decade Released';
 -- SELECT * FROM albums WHERE release_date BETWEEN 1990 AND 1999;
 
-SELECT 'Rock' AS 'Songs in Genre';
-SELECT * FROM albums WHERE genre = 'Rock';
+-- SELECT 'Rock' AS 'Songs in Genre';
+-- SELECT * FROM albums WHERE genre = 'Rock';
