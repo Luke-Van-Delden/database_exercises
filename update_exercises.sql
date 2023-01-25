@@ -8,6 +8,6 @@ USE codeup_test_db;
 -- UPDATE albums SET release_date = 1800 WHERE release_date < 1980;
 -- SELECT name AS 'From 1980s', release_date FROM albums WHERE release_date < 1980;
 
-SELECT name AS 'Albums By Michael Jackson', artist FROM albums WHERE artist = 'Michael Jackson';
+-- SELECT name AS 'Albums By Michael Jackson', artist FROM albums WHERE artist = 'Michael Jackson';
 -- UPDATE albums SET artist = 'Peter Jackson' WHERE artist = 'Michael Jackson';
 -- SELECT name AS 'By Peter Jackson', artist FROM albums WHERE artist = 'Peter Jackson';

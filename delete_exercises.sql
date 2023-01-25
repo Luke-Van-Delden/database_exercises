@@ -1,10 +1,13 @@
 USE codeup_test_db;
 
-SELECT 'Released after 1991' AS 'Albums';
+SELECT name, release_date FROM albums WHERE release_date > 1991;
+
 DELETE FROM albums WHERE release_date > 1991;
 
-SELECT 'Disco' AS 'Genre';
+SELECT name, genre AFROM albums WHERE genre = 'Disco';
+
 DELETE FROM albums WHERE genre = 'Disco';
 
-SELECT 'Whitney Houston' AS 'Artist';
+SELECT name FROM albums WHERE artist = 'Whitney Houston';
+
 DELETE FROM albums WHERE artist = 'Whitney Houston';
