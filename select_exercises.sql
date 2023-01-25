@@ -1,7 +1,7 @@
 USE codeup_test_db;
 
--- SELECT 'Pink Floyd' AS '30M or more copies sold';
--- SELECT * FROM albums WHERE artist = 'Pink Floyd';
+SELECT 'Pink Floyd' AS '30M or more copies sold';
+SELECT names FROM albums WHERE artist = 'Pink Floyd';
 
 -- SELECT 'Year Released' AS 'Sgt. Pepper''s Lonely Hearts Club Band';
 -- SELECT release_date FROM albums WHERE name = 'Sgt. Pepper''s Lonely Hearts Club Band';
