@@ -1,16 +1,11 @@
 USE codeup_test_db;
 
-SELECT 'Pink Floyd' AS '30M or more copies sold';
-SELECT names FROM albums WHERE artist = 'Pink Floyd';
+-- SELECT name AS 'Pink Floyd' FROM albums WHERE artist = 'Pink Floyd';
 
--- SELECT 'Year Released' AS 'Sgt. Pepper''s Lonely Hearts Club Band';
--- SELECT release_date FROM albums WHERE name = 'Sgt. Pepper''s Lonely Hearts Club Band';
+-- SELECT release_date AS 'Sgt. Pepper''s Lonely Hearts Club Band Year Released' FROM albums WHERE name = 'Sgt. Pepper''s Lonely Hearts Club Band';
 
--- SELECT 'Metallica' AS 'Genre';
--- SELECT genre FROM albums WHERE name = 'Metallica';
+-- SELECT genre AS 'Metallica''s Genre' FROM albums WHERE name = 'Metallica';
 
--- SELECT '1990s' AS 'Decade Released';
--- SELECT * FROM albums WHERE release_date BETWEEN 1990 AND 1999;
+-- SELECT name AS 'Albums released in 1990s' FROM albums WHERE release_date BETWEEN 1990 AND 1999;
 
--- SELECT 'Rock' AS 'Songs in Genre';
--- SELECT * FROM albums WHERE genre = 'Rock';
+-- SELECT name AS 'Rock Albums' FROM albums WHERE genre = 'Rock';
