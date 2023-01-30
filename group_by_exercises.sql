@@ -1,5 +1,7 @@
 USE employees;
 
+SELECT DISTINCT title FROM titles GROUP BY title;
+
 SELECT title FROM titles GROUP BY title;
 
 SELECT last_name FROM employees
